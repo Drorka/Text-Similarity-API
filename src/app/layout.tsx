@@ -19,6 +19,7 @@ export default function RootLayout({
 			<body className="mi-h-screen bg-slate-50 dark:bg-slate-900 antialiased">
 				<Providers>
 					{children}
+					{/* @ts-expect-error Server Component */}
 					<NavBar />
 				</Providers>
 
