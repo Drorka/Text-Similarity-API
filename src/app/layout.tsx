@@ -3,6 +3,7 @@ import { Inter } from 'next/font/google'
 import { cn } from '@/src/lib/utils'
 import Providers from '../components/Providers'
 import NavBar from '../components/NavBar'
+import { Toaster } from '../components/ui/Toast'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -19,6 +20,8 @@ export default function RootLayout({
 			<body className="mi-h-screen bg-slate-50 dark:bg-slate-900 antialiased">
 				<Providers>
 					{children}
+
+					<Toaster position="bottom-right" />
 					{/* @ts-expect-error Server Component */}
 					<NavBar />
 				</Providers>
