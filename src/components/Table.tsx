@@ -13,7 +13,7 @@ import { ThemeProvider, createTheme } from '@mui/material'
 const columnsDraft: GridColDef[] = [
 	{
 		field: 'col1',
-		headerName: 'API ket used',
+		headerName: 'API key used',
 		width: 400,
 		renderHeader(params) {
 			return (
