@@ -1,3 +1,7 @@
+## Text Similarity API
+
+Easily determine the similarity between two pieces of text.
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
